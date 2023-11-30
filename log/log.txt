@@ -1,0 +1,7 @@
+2023-11-30 09:14:45,388 [ERROR]: Error occurred: 'database'
+Traceback (most recent call last):
+  File "D:\桌面\告警特征统计\tezhengtongji.py", line 27, in alarm_characteristic_statistics
+    host=config['database']['host'],
+  File "D:\Software\ANACONDA\lib\configparser.py", line 963, in __getitem__
+    raise KeyError(key)
+KeyError: 'database'
